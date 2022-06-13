@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Header from './Header';
+import Banner from './Banner';
+import Card from './Card';
 import Description from './Description';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div><Header /> <Description/></div>
+    <div><Header /> 
+          <Description />
+          <Banner />
+          <Card /> 
+    </div>
   </React.StrictMode>
 );
 
